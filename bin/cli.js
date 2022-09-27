@@ -23,7 +23,8 @@ if (!checkedOut) {
 
 } else {
 
-    // console.log(installDepsCommand);
+    console.log(installDepsCommand);
+    runCommand(`mkdir ${repoName}`);
     console.log(`Installing dependicies for ${repoName}`);
     const installedDeps = runCommand(installDepsCommand);
     if (!installedDeps) {
@@ -31,5 +32,4 @@ if (!checkedOut) {
     }
     console.log(` Congratulation! You are ready  . Follow the following commands to start`);
     console.log(`cd ${repoName} && npm start`);
-    runCommand(`cd ${repoName}; npm start`);
 }
