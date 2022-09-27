@@ -1,0 +1,23 @@
+{
+  "name": "frontend123",
+  "version": "1.0.1",
+  "description": "frontend",
+  "main": "index.js",
+  "bin": {
+    "transfyvthree": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebNaresh/frontend_basic.git"
+  },
+  "keywords": ["frontend"],
+  "author": "web_naresh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WebNaresh/frontend_basic/issues"
+  },
+  "homepage": "https://github.com/WebNaresh/frontend_basic#readme"
+}
